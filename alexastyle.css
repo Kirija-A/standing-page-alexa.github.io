@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(193, 192, 194);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(SIMPLIFICA_Typeface.ttf);
+  }
+  
+ 
+h1 {
+    font-size: 48px;
+    font-family: myFirstFont;
+    background-color: rgb(111, 168, 187);
+    padding-left: 15px;
+    padding-top: 5px;
+    margin:auto;
+}
+.alexaDiv {
+     width: 50%;
+     margin:auto;
+     
+   }
+   .alexaDivFlex {
+     display:flex;
+     margin:auto;
+
+   }
+   .alexaDiv1 {
+    flex: 10%;
+    padding:20px;
+    margin-top: 5%;
+  } 
+   
+   .alexaDiv2 {
+     flex: 90%;
+     padding:20px;
+   }
+   
